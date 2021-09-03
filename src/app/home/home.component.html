@@ -1,0 +1,26 @@
+<!-- String interpolation  -->
+
+{{ title }}
+
+<!-- Event Binding  -->
+<div class="mt-3">
+    <button (click)="onClick()" class="btn btn-primary">Click Me</button>
+</div>
+
+<!-- Property Binding -->
+
+<div class="form-group mt-3">
+    <input [disabled]="isDisabled" [value]="title" type="text" class="form-control">
+</div>
+
+<!-- Two way Binding -->
+<div class="form-group mt-3">
+    <input [value]="title" [(ngModel)]="title" type="text" class="form-control">
+</div>
+
+
+
+
+
+
+
